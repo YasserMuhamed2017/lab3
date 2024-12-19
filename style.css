@@ -1,0 +1,49 @@
+div, span, p {
+    font-family: 'Lucida Calligraphy';
+}
+
+h1 {
+    text-align: center;
+}
+
+#linksbar ul li {
+    list-style-type: none;
+    color: red;
+    background-color: pink;
+    text-decoration: none;
+    width: 20%;
+    cursor: pointer;
+}
+
+#linksbar ul li:hover {
+    color: pink;
+    background-color: red;
+    text-decoration: none;
+}
+
+#content h2 {
+    font-weight: bold;
+    font-size: 12px;
+}
+
+#loginform {
+    border: 2px rgb(20,70,60) dashed;
+}
+
+input[type="text"] {
+    background-color: yellow;
+}
+
+input[type="text"]:focus {
+    background-color: white;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+th {
+    border: 2px solid black;
+    border-collapse: collapse;
+    padding: 5px;
+}
